@@ -32,8 +32,8 @@ func init() {
 	)
 	flag.StringVar(&inputPath, "input", defaultInputPath, inputPathUsage)
 	flag.StringVar(&inputPath, "i", defaultInputPath, inputPathUsage+" (shorthand)")
-	flag.StringVar(&outputPath, "output", defaultOutputPath, outputPath)
-	flag.StringVar(&outputPath, "o", defaultOutputPath, outputPath)
+	flag.StringVar(&outputPath, "output", defaultOutputPath, outputPathUsage)
+	flag.StringVar(&outputPath, "o", defaultOutputPath, outputPathUsage)
 }
 
 func main() {
