@@ -5,7 +5,10 @@ Export URLs directly from [OneTab](https://chrome.google.com/webstore/detail/one
 ## Installation
 
 ```sh
-$ go get github.com/jianyuan/onetab-export-to-json
+$ go install github.com/jianyuan/onetab-export-to-json@latest
+
+# go will build the program and install the binary to $GOPATH/bin
+$ $GOPATH/bin/onetab-export-to-json
 ```
 
 ## Usage
