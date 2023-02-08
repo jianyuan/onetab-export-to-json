@@ -4,5 +4,5 @@ go 1.14
 
 require (
 	github.com/syndtr/goleveldb v1.0.0
-	golang.org/x/text v0.6.0
+	golang.org/x/text v0.7.0
 )
