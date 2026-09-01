@@ -2,7 +2,7 @@ module github.com/jianyuan/onetab-export-to-json
 
 go 1.23.0
 
-toolchain go1.24.1
+toolchain go1.27.1
 
 require (
 	github.com/syndtr/goleveldb v1.0.0
